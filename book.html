@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store Website</title>
+    <!---font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!---CSS Link-->
+    <link rel="stylesheet" href="book.css">
+    <!---Swipper JS-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+<!---header section started-->
+<header class="header">
+    <div class="header-1">
+        <a href="#" class="logo"><i class="fa fa-bookmark-o" aria-hidden="true">booky</i>
+        </a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+        <div class="icons">
+        <div id="search-btn" class="fa fa-search"></div> 
+        <a href="#" class="fa fa-heart"></a>
+        <a href="#" class="fa fa-shopping-cart"></a>
+        <div id="login-btn" class="fa fa-user"></div>              
+        </div>
+    </div>
+    <!--header2 section started-->
+<div class="header-2">
+    <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#home">featured</a>
+    <a href="#arrivals">arrivals</a>
+    <a href="#reviews">reviews</a>
+    <a href="#blogs">blogs</a>
+    </nav>
+</div>
+<!---header section started-->
+</header>
+<!---header section started-->
+<!---bottom section started-->
+<nav class="bottom-navbar">
+    <a href="#home" class="fa fa-home">home</a>
+    <a href="#home" class="fa fa-list-alt"></a>
+    <a href="#arrivals" class="fa fa-tag"></a>
+    <a href="#reviews" class="fa fa-comments"></a>
+    <a href="#blogs" class="fa fa-rss" ></a>   
+</nav>
+
+<!---bottom section started-->
+
+
+<!---login section started-->
+<div class="login-form-container">
+    <div id="close-login-btn" class="fa fa-times" ></div>
+    <form action="">
+        <h3>sign form</h3>
+        <span>Username</span>
+        <input type="email" class="box" name="" placeholder="enter your email" id="">
+        <span>Password</span>
+        <input type="password" class="box" name="" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password? <a href="#">click here....</a></p>
+        <p>don't have an account? <a href="#">create an account....</a></p>
+    </form>
+</div>
+<!---login section started-->
+
+<!---home section started-->
+<section class="home" id="home">
+<div class="row">
+    <div class="content">
+        <h3>upto 75% off</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora facere minus ex esse, cumque rem illo reprehenderit repellendus dolores corrupti officia nisi. Cum nam accusamus corrupti assumenda illum ab soluta impedit! Vitae, aliquid velit.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    <div class="swiper books-slider">
+        <div class="swiper-wrapper">
+        <a href="#" class="swiper-slide"><img src="https://i.pinimg.com/originals/b4/3d/43/b43d438638e2ed51d1f19dad2a4eb24d.gif" alt=""></a>
+
+        <a href="#" class="swiper-slide"><img src="https://i.pinimg.com/originals/1a/af/16/1aaf162ed448874e6fe411356d029675.gif" alt=""></a>
+
+        <a href="#" class="swiper-slide"><img src="https://media4.giphy.com/media/W4uQ2KZt14br2hJ3sM/giphy.gif" alt=""></a>
+
+        <a href="#" class="swiper-slide"><img src="https://i.gifer.com/UKzC.gif" alt=""></a>
+
+        <a href="#" class="swiper-slide"><img src="https://i.pinimg.com/originals/6e/77/23/6e772337effc7b589fcdb896efe9a620.gif" alt=""></a>
+
+        <a href="#" class="swiper-slide"><img src="https://media2.giphy.com/media/A8T56uwdlmR698KmKe/giphy.gif" alt=""></a>
+</div>
+
+<a href="#"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c283.png" class="stand" alt=""></a>
+
+</div>
+
+</div>
+</section>
+
+<!---home section started-->
+
+
+<!---icons section started-->
+<section class="icons-container">
+    <div class="icons">
+    <i class="fa fa-plane" aria-hidden="true"></i>
+    <div class="content">
+        <h3>fast shipping</h3>
+    <p>order over $100</p>
+    </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        <div class="content">
+            <h3>secure payment.</h3>
+        <p>100 secure payment.</p>
+        </div>
+        </div>
+
+
+        <div class="icons">
+            <i class="fa fa-repeat" aria-hidden="true"></i>
+            <div class="content">
+                <h3>easy return</h3>
+            <p>100 secure payment.</p>
+            </div>
+            </div>
+</section>
+<!---icons section started-->
+
+<!----featured section started-->
+<section class="featured" id="featured">
+    <h1 class="heading"><span>featured books</span></h1>
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/146/146940.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2069/2069655.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn1.iconfinder.com/data/icons/city-filled-outline-1/512/building_city_architecture_bookstore_book_store_shop_urban-512.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/146/146940.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5900/5900198.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/39999/bookstore-clipart-md.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/202/202373.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2905/2905191.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5900/5900198.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fa fa-search"></a>
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3532/3532091.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$15.00 <span>$200.90</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+<!----featured section started-->
+
+
+<!----newsletter section started-->
+<section class="newsletter">
+<form action="">
+    <h3>subscribe for latest updates.</h3>
+    <input type="email" name="" placeholder="enter your email..." id="" class="box">
+    <input type="submit" value="subscribe" class="btn">
+</form>
+</section>
+<!---newsletter section started-->
+
+<!---arrivals section started-->
+<section class="arrivals" id="arrivals">
+    <h1 class="heading"><span>new arrivals</span></h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1198/1198310.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$343.90 <span>$23.00</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/252/252003.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$343.90 <span>$23.00</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class=" swiper-slide box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1198/1198310.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$343.90 <span>$23.00</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/123/123403.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$343.90 <span>$23.00</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!----Arrival-->
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1591/1591041.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$343.90 <span>$23.00</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class=" swiper-slide box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/179/179456.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$343.90 <span>$23.00</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/204/204314.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$343.90 <span>$23.00</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3081/3081341.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$343.90 <span>$23.00</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!---Arrivals-->
+</section>
+<!----arrivals section started-->
+
+<!---Deals Section Started-->
+<section class="deal">
+    <div class="content">
+        <h3>deal of the day..</h3>
+        <h1>upto 50% off.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quia ad mollitia minus, consectetur cupiditate, et, repellendus modi voluptas ullam alias? Tempore, reprehenderit.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    <div class="image">
+        <img src="https://media.architecturaldigest.com/photos/5746119829eb2cc479c98d1d/master/w_818,h_545,c_limit/Futuristic_Chinese_Bookstore_01.jpg" alt="">
+    </div>
+</section>
+
+<!----Deals Section Started-->
+
+
+<!--Reviews section started-->
+<section class="reviews" id="reviews">
+    <h1 class="heading"><span>clients 's reviews.</span></h1>
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="https://im.whatshot.in/img/2020/Oct/11097-b-1603311418.jpg" alt="">
+                <h3>jhon deo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quibusdam, a reprehenderit voluptatibus expedita ullam quia excepturi, ex dignissimos libero suscipit et maxime.</p>
+                <div class="stars">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="https://images.unsplash.com/photo-1569728723358-d1a317aa7fba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+                <h3>Shubham Tiwari</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio doloribus alias similique.</p>
+                <div class="stars">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="https://media.istockphoto.com/photos/bookstore-full-of-books-makes-for-better-everyday-life-picture-id1389125849?b=1&k=20&m=1389125849&s=170667a&w=0&h=PzjObpZqE0mSQCnoQEUUXCPfd35CGl-KC8GJ_2hdQ9s=" alt="">
+                <h3>Satyam Tiwari</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias temporibus velit deleniti quis! In.</p>
+                <div class="stars">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1vLKxHfs5BImZO7nZaTHk5hQDcLdggt9HSDgXUCCloVtDxbG53d11k3H84ecQ5lvQyU&usqp=CAU" alt="">
+                <h3>Daman Singh</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vero.</p>
+                <div class="stars">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="http://retaildesignblog.net/wp-content/uploads/2015/04/sodaBERLIN-Bookshop-by-Designliga-Berlin-Germany-09.jpg" alt="">
+                <h3>Akit Raj</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vero voluptates ipsa architecto asperiores repellendus nobis, sit sint.</p>
+                <div class="stars">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+  
+   
+</section>
+<!---Reviews section started-->
+
+<!---Blogs section started-->
+<section class="blogs" id="blogs">
+    <h1 class="heading"><span>our blogs</span></h1>
+    <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://blog-cdn.reedsy.com/assets/book-review-blogs/og-image-866d78d20f962831e12f6f8efe6b752b5808bf8a234f6f3fc13bbfbc7387ee02.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil omnis quidem, doloremque dicta aliquam culpa velit, enim accusantium ut fugiat, temporibus itaque.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1534723452862-4c874018d66d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3RvcmV8ZW58MHx8MHx8&w=1000&q=80" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil omnis quidem, doloremque dicta aliquam culpa velit, enim accusantium ut fugiat, temporibus itaque.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://img.freepik.com/free-vector/shop-with-sign-we-are-open_52683-38687.jpg?w=2000" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil omnis quidem, doloremque dicta aliquam culpa velit, enim accusantium ut fugiat, temporibus itaque.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://static.vecteezy.com/system/resources/previews/006/398/492/non_2x/illustration-of-store-or-market-flat-design-vector.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>blog title goes here.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil omnis quidem, doloremque dicta aliquam culpa velit, enim accusantium ut fugiat, temporibus itaque.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---Blogs section started-->
+
+<!---Footer Section Started-->
+<section style="background:tomato;" class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>pure location.</h3>
+            <a href="#"><i class="fa fa-map-marker" aria-hidden="true">india</i>
+            </a>
+
+            <a href="#"><i class="fa fa-map-marker" aria-hidden="true">USA</i>
+            </a>
+
+            <a href="#"><i class="fa fa-map-marker" aria-hidden="true">russia</i>
+            </a>
+
+            <a href="#"><i class="fa fa-map-marker" aria-hidden="true">france</i>
+            </a>
+
+            <a href="#"><i class="fa fa-map-marker" aria-hidden="true">japan</i>
+            </a>
+
+            <a href="#"><i class="fa fa-map-marker" aria-hidden="true">africa</i>
+            </a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">home</i>
+            </a>
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">featured</i>
+            </a>
+
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">arrivals</i>
+            </a>
+
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">reviews</i>
+            </a>
+
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">blogs</i>
+            </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">account info</i>
+            </a>
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">order items</i>
+            </a>
+
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">privary policy</i>
+            </a>
+
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">payment policy</i>
+            </a>
+
+            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true">our services</i>
+            </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+        <a href="#"><i class="fa fa-phone" aria-hidden="true">+916377753007</i>
+            </a>
+        <a href="#"><i class="fa fa-phone" aria-hidden="true">+916377753007</i>
+            </a>
+        <a href="#"><i class="fa fa-envelope" aria-hidden="true">shubhamtiwari8047@gmail.com</i></a>
+
+        <img src="https://pngimg.com/uploads/world_map/world_map_PNG11.png" class="map" alt="">
+        </div>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-dribbble"></a>
+        <a href="#" class="fa fa-pinterest-p"></a>
+        <a href="#" class="fa fa-firefox"></a>
+    </div>
+    <div class="credit">
+        created by <span>shubham tiwari</span>
+    </div>
+</section>
+<!---Footer Section Started-->
+
+
+<!---loader section started-->
+<div class="loader-container">
+    <img src="https://www.animatedimages.org/data/media/53/animated-book-image-0032.gif" alt="">
+</div>
+
+
+<!---loader section started-->
+<!---Javascript Section Started-->
+<script>
+
+
+searchForm = document.querySelector('.search-form');
+
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active')
+}
+
+
+//login form section
+
+let loginform = document.querySelector('.login-form-container');
+
+document.querySelector('#login-btn').onclick = () =>{
+    loginform.classList.toggle('active');
+}
+
+
+document.querySelector('#close-login-btn').onclick = () =>{
+    loginform.classList.remove('active');
+}
+
+    window.onscroll = () =>{
+        searchForm.classList.remove('active');
+
+        if(window.scrollY > 80){
+            document.querySelector('.header .header-2').classList.add('active');
+    
+        }
+    
+        else{
+            document.querySelector('.header .header-2').classList.remove('active');
+        }
+    }
+
+
+    //swipe js javascript.
+
+    var swiper = new Swiper(".books-slider", {
+      loop:true,
+      centeredSlides:true,
+      autoplay:{
+delay:9500,
+disableOnInteraction:false,
+      },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+      //Featured swiper js
+      var swiper = new Swiper(".featured-slider", {
+      
+      spaceBetween:10,
+        loop:true,
+      centeredSlides:true,
+      autoplay:{
+delay:9500,
+disableOnInteraction:false,
+      },
+
+
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+
+          450: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+         
+          1024: {
+            slidesPerView: 4,
+          },
+        },
+      });
+
+
+      //arrivals swiper
+      var swiper = new Swiper(".arrivals-slider", {
+      
+      spaceBetween:10,
+        loop:true,
+      centeredSlides:true,
+      autoplay:{
+delay:9500,
+disableOnInteraction:false,
+      },
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+
+          768: {
+            slidesPerView: 2,
+          },
+         
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+
+      //reviews swiper section
+      
+      var swiper = new Swiper(".reviews-slider", {
+      
+      spaceBetween:10,
+      grabCursor:true,
+        loop:true,
+      centeredSlides:true,
+      autoplay:{
+delay:9500,
+disableOnInteraction:false,
+      },
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+
+          768: {
+            slidesPerView: 2,
+          },
+         
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+
+      //blogs section started
+
+      var swiper = new Swiper(".blogs-slider", {
+      
+      spaceBetween:10,
+      grabCursor:true,
+        loop:true,
+      centeredSlides:true,
+      autoplay:{
+delay:9500,
+disableOnInteraction:false,
+      },
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+
+          768: {
+            slidesPerView: 2,
+          },
+         
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+
+      //loader section started
+
+      function loader(){
+        document.querySelector('.loader-container').classList.add('active');
+
+      }
+
+      function fadeOut(){
+        setTimeout(loader,4000)
+      }
+
+      fadeOut();
+
+
+    </script>
+
+<!---Javascript Section Started-->
+
+
+</body>
+</html>
